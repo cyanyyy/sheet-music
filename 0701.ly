@@ -43,6 +43,7 @@
     a8 e4 a16 cis16 |
     gis'16 fis16 d16 cis16 e,16 e16 a16 b16
     gis8 fis8 a4
+    \bar "|."
   }
 
   \layout {}
