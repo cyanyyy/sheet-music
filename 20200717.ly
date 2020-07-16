@@ -57,4 +57,27 @@ indent=0cm
 }
 }
 
+\markuplist {
+\wordwrap-lines{
+2.
+} 
+}
+\score {
+  \relative c' {
+  \chordmode {
+  f:maj7_\markup {Fmaj7}
+  g:m7_\markup {Gm7}
+  g_\markup {G} 
+  d:m_\markup {Dm}
+  g:7_\markup {G7}
+  a:m_\markup {Am}
+  e:7_\markup {E7} 
+  b:7_\markup {B7}
+  c:9_\markup {C9}
+   }
+  \bar "|." %结束
+  }
 
+  \layout {}
+  \midi {}
+}
