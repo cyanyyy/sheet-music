@@ -34,9 +34,9 @@ pianoLH = \relative c { %设定参考音高为小字组c
 \chordmode {
   f,,:7_\markup {F7} f,,:m7_\markup {Fm7} aes,,:m/f_\markup {Fm7-5} f,,:dim7_\markup {Fdim7} 
   \break %换行
-  e,,:7_\markup {E7} e,,:m7_\markup {Em7} g,,:m/e_\markup {Em7-5} e,,:dim7_\markup {Edim7} 
+  e,:7_\markup {E7} e,:m7_\markup {Em7} g,:m/e_\markup {Em7-5} e,:dim7_\markup {Edim7} 
   \break %换行
-  d,,:7_\markup {D7} d,,:m7_\markup {Dm7} f,,:m/d_\markup {dm7-5} d,,:dim7_\markup {Ddim7}
+  d,:7_\markup {D7} d,:m7_\markup {Dm7} f,:m/d_\markup {Dm7-5} d,:dim7_\markup {Ddim7}
   \bar "|."
   }
   }
@@ -56,3 +56,5 @@ pianoLH = \relative c { %设定参考音高为小字组c
 indent=0cm
 }
 }
+
+
