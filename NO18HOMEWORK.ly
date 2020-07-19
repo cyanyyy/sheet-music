@@ -3,6 +3,7 @@
   composer = "2339-Y"
 }
 
+\markup {"1."}
 \markup {"D自然大调"}
 \score {
   \relative c' {
@@ -91,5 +92,10 @@
   }
   }
 
+
+
+\markup {"2."}
+\markup {"D和声大调"}
+\markup {"E自然大调"}
   \layout {}
   \midi {}
