@@ -72,7 +72,7 @@
 \score {
   \relative c' {
 \key f \major
-    bes c d e f g a bes
+    f g a bes c d e f
   }
   }
 
@@ -88,7 +88,7 @@
 \score {
   \relative c' {
 \key ges \major
-    ges aes bes c des ees f ges
+    ges' aes bes ces des ees f ges
   }
   }
 
