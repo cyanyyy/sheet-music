@@ -3,8 +3,7 @@
   composer = "2339-Y"
 }
 
-\markup {"1."}
-\markup {"①d和声小调"}
+\markup {"1.①d和声小调"}
 \score {
   \relative c' {
 \key d \minor
