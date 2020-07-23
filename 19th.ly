@@ -69,10 +69,7 @@
   }
 
 
-
-
 \markup {"2."}
-\markup {"D和声大调"}
-\markup {"E自然大调"}
+\markup {"c旋律小调       e和声小调"}
   \layout {}
   \midi {}
