@@ -1,30 +1,30 @@
 \header {
-  title = "第十八节课后作业"
+  title = "第十九节课后作业"
   composer = "2339-Y"
 }
 
 \markup {"1."}
-\markup {"D自然大调"}
+\markup {"①d和声小调"}
+\score {
+  \relative c' {
+\key d \minor
+    d1 e f g a bes cis d
+  }
+  }
+
+\markup {"②e自然小调"}
+\score {
+  \relative c' {
+\key e \minor
+    e fis g a b c d e
+  }
+  }
+
+\markup {"③D和声大调"}
 \score {
   \relative c' {
 \key d \major
-    d1 e fis g a b cis d
-  }
-  }
-
-\markup {"#F和声大调"}
-\score {
-  \relative c' {
-\key fis \major
-    fis gis ais b cis d eis fis
-  }
-  }
-
-\markup {"E和声大调"}
-\score {
-  \relative c' {
-\key e \major
-    e fis gis a b c dis e
+    d e fis g a bes cis d
   }
   }
 
