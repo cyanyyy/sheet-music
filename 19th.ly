@@ -47,7 +47,9 @@
 \score {
   \relative c' {
 \key c \minor
-    c d ees f g a b c bes aes g f ees d c
+    c d ees f g a b c 
+    \override NoteHead.color = #red bes_\markup {"没有小节线情况下要加b"} aes 
+    \override NoteHead.color = #black g f ees d c
   }
   }
 
@@ -63,12 +65,19 @@
 \score {
   \relative c' {
 \key a \major
-    a' b cis d e fis gis a
+    a' b cis d e fis gis a g f e d cis b a
   }
   }
 
 
 \markup {"2."}
 \markup {"c旋律小调       e和声小调"}
-  \layout {}
-  \midi {}
+\layout {
+indent = 0cm
+\context {
+\Staff
+
+\remove "Bar_engraver" %取消小节线
+}
+}
+}
