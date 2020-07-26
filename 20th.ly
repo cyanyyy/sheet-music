@@ -35,11 +35,11 @@
   }
   }
 
-\markup {"⑤A自然大调"}
+\markup {"⑤E角五声调式"}
 \score {
   \relative c'' {
-\key a \major
-    a b cis d e fis gis a
+\key c \major
+    e,  g a  c d e
   }
   }
 
