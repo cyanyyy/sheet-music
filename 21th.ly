@@ -3,7 +3,7 @@
   composer = "2339-Y"
 }
 
-\markup {"1.①B商六声调式（加变宫）"}
+\markup {"①B商六声调式（加变宫）"}
 \score {
   \relative c' {
 \key a \major
@@ -19,59 +19,39 @@
   }
   }
 
-\markup {"③A宫五声调式"}
+\markup {"③F徵六声调式（加变宫）"}
 \score {
   \relative c' {
-\key a \major
-    a' b cis e fis a
+\key bes \major
+    f g a bes c d f
   }
   }
 
-\markup {"④B羽五声调式"}
+\markup {"④D角七声清乐调式"}
 \score {
   \relative c'' {
-\key d \major
-    b, d e fis a b
+\key bes \major
+    d, ees f g a bes c d
   }
   }
 
-\markup {"⑤E角五声调式"}
+\markup {"⑤A角七声雅乐调式"}
 \score {
   \relative c'' {
-\key c \major
-    e,  g a  c d e
+\key f \major
+    a b c d e f g a
   }
   }
 
-\markup {"⑥c旋律小调"}
+\markup {"⑥G商七声燕乐调式"}
 \score {
   \relative c' {
-\key c \minor
-    c d ees f g a b c 
-    \override NoteHead.color = #red bes_\markup {"没有小节线情况下要加b"} aes 
-    \override NoteHead.color = #black g f ees d c
-  }
-  }
-
-\markup {"⑦be和声小调"}
-\score {
-  \relative c' {
-\key ees \minor
-    ees f ges aes bes ces d ees
-  }
-  }
-
-\markup {"⑧A旋律大调"}
-\score {
-  \relative c' {
-\key a \major
-    a' b cis d e fis gis a g f e d cis b a
+\key f \major
+    g' a bes c d ees f g
   }
   }
 
 
-\markup {"2."}
-\markup {"c旋律小调       e和声小调"}
 \layout {
 indent = 0cm
 \context {
