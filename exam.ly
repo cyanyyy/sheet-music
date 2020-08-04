@@ -4,6 +4,21 @@
 
 }
 
+
+\score {
+  \relative c' {
+  \chordmode{
+    c1:m7
+    e:7
+    gis:m7
+    b,:dim7
+  }
+  }
+
+  \layout {}
+  \midi {}
+}
+
 \score {
   \relative c' {
   \chordmode {
