@@ -39,3 +39,35 @@
     ees f ges aes bes ces d ees
   }
   }
+
+
+\score {
+  \relative c' {
+\key d \major
+    b  d e fis  a b
+  }
+  }
+
+
+
+\markup {"六"}
+\score {
+  \relative c' {
+  \chordmode {
+   f:maj7
+   g:m7
+   gis
+   d:m
+   g:maj7
+   aes:aug
+   e:m7
+   c:dim
+   c:7
+
+   }
+  \bar "|." %结束
+  }
+
+  \layout {}
+  \midi {}
+}
