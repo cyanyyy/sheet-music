@@ -62,7 +62,7 @@
    aes:aug
    e:m7
    c:dim
-   c:7
+   c:9
 
    }
   \bar "|." %结束
