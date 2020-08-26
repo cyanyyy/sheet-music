@@ -64,8 +64,8 @@ pianoLH = \relative c { %设定参考音高为小字组c
 \time 4/4
  \key c \major
  c2~ c4. c8| 
- c2~ c4. g'8 |
- c,1 |
+ c2~ c4.~ <c g'>8|
+ c1 |
  \bar "|."
 } %完成左手分谱
 
@@ -93,9 +93,9 @@ pianoRH = \relative c'{
  \defaultTimeSignature
 \time 4/4
  \key c \major
-  <e g>8 c  <e g>8 c  <e g>8 c  <e g>8 c|
+  <e g>8~ _\markup{三五-根} <c e g> <e g>~ <c e g>  <e g>~ <c e g> <e g>~ <c e g>|
  c8 e g e c e g e|
- \chordmode {c4 c c c}|
+ \chordmode {c4_\markup{齐左右左} c c c}|
  \bar "|."
 }
 
@@ -107,7 +107,7 @@ pianoLH = \relative c { %设定参考音高为小字组c
  \key c \major
  c1 |
  c1 |
- c8~ <c g>~ c8~ <c g>~ c8~ <c g>~ c8~ <c g>| %_\markup{齐左右左}
+ c8~ _\markup{根-五或者根-八}<c g'>~ c8~ <c g'>~ c8~ <c g'>~ c8~ <c g'>| 
  \bar "|."
 } %完成左手分谱
 
