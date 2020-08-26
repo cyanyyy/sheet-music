@@ -1,6 +1,7 @@
+
+
 \header {
-  title = "Untitled"
-  composer = "Composer"
+  title = "节奏型笔记"
 }
 
 %右手分谱
@@ -12,8 +13,8 @@ pianoRH = \relative c'{
  \chordmode { c4 c c c|
  c c c c |
  c c c c |
- c2 |
- }
+ c c c}  <e g>8 c |
+ 
  \bar "|."
 }
 
@@ -26,7 +27,7 @@ pianoLH = \relative c { %设定参考音高为小字组c
  c1 |
  c2~_\markup{最后一拍反拍弹↖根音或五音↗}c4. c8|
  c2~ c4. g'8 |
- c2 |
+ c,1 |
  \bar "|."
 } %完成左手分谱
 
