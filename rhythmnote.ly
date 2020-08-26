@@ -46,3 +46,4 @@ pianoLH = \relative c { %设定参考音高为小字组c
  \layout{
  indent=0cm
 }
+}
