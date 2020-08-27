@@ -4,7 +4,7 @@
   title = "节奏型笔记"
 }
 
-%一、四四四四
+%一、全部四
 %右手分谱
 pianoRH = \relative c'{
  \clef "treble"
@@ -29,7 +29,7 @@ pianoLH = \relative c { %设定参考音高为小字组c
 
 
 %组装成钢琴谱
-\markup{四四四四}
+\markup{X X X X}
 \score {
  \new PianoStaff <<
  \new Staff {
@@ -44,7 +44,7 @@ pianoLH = \relative c { %设定参考音高为小字组c
 }
 }
 
-%二、四四四二八
+%二、四 四 四 二八
 %右手分谱
 pianoRH = \relative c'{
  \clef "treble"
@@ -71,7 +71,7 @@ pianoLH = \relative c { %设定参考音高为小字组c
 
 
 %组装成钢琴谱
-\markup{四四四二八}
+\markup{X X X \underline XX}
 \score {
  \new PianoStaff <<
  \new Staff {
@@ -86,7 +86,7 @@ pianoLH = \relative c { %设定参考音高为小字组c
 }
 }
 
-%三、二八二八二八二八
+%三、全部二八
 %右手分谱
 pianoRH = \relative c'{
  \clef "treble"
@@ -113,7 +113,7 @@ pianoLH = \relative c { %设定参考音高为小字组c
 
 
 %组装成钢琴谱
-\markup{二八二八二八二八}
+\markup{\underline XX \underline XX \underline XX \underline XX}
 \score {
  \new PianoStaff <<
  \new Staff {
@@ -129,7 +129,7 @@ pianoLH = \relative c { %设定参考音高为小字组c
 }
 
 
-%四、二八二八二八十六八
+%四、二八 二八 二八 十六八
 %右手分谱
 pianoRH = \relative c'{
  \clef "treble"
@@ -137,8 +137,7 @@ pianoRH = \relative c'{
 \time 4/4
  \key c \major
  <c e g>4_\markup{四 十六八} g'16 e16 c8 <c e g>4 g'16 e16 c8|
- c8 e g e c e g e|
- \chordmode {c4_\markup{齐左右右齐} c c c}|
+
  \bar "|."
 }
 
@@ -149,14 +148,13 @@ pianoLH = \relative c { %设定参考音高为小字组c
 \time 4/4
  \key c \major
  c8~ _\markup{根-五或者根-八}<c g'>~ c8~ <c g'>~ c8~ <c g'>~ c8~ <c g'> |
- c1 |
- c8~ _\markup{根-五或者根-八}<c g'>~ c8~ <c g'>~ c8~ <c g'>~ c8~ <c g'>| 
+
  \bar "|."
 } %完成左手分谱
 
 
 %组装成钢琴谱
-\markup{二八二八二八十六八}
+\markup{\underline XX \underline XX \underline XX 十六八}
 \score {
  \new PianoStaff <<
  \new Staff {
